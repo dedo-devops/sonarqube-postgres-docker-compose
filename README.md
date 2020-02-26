@@ -16,5 +16,5 @@ sudo chown "$USER":"$USER" sonarqube_conf sonarqube_data sonarqube_extensions so
 
 sudo chmod 777 sonarqube_conf sonarqube_data sonarqube_extensions sonarqube_bundled-plugins
 
-sudo docker-compose  up -d --build
+docker-compose  up -d --build
 
